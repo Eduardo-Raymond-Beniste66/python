@@ -1,0 +1,6 @@
+print("-----Calculo tempo e segundos-----")
+n1=int(input('Quantos Dias:'))
+n2=int(input('Quantas horas:'))
+n3=int(input('Quantos minutos:'))
+segs=(n3*60)+(n2*3600)+(n1*86400)
+print(segs)
